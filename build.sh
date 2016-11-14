@@ -8,13 +8,13 @@ fi
 # enable error reporting to the console
 set -e 
 
-jekyll build
+python generate.py
 
 #clone `master' branch of the repository using encrypted GH_TOKEN for authentification
 git clone https://${GH_TOKEN}@github.com/appbaseio/appbaseio.github.io.git ../appbaseio.github.io.master
 
 # copy generated HTML site to `master' branch
-cp -R _site/* ../appbaseio.github.io.master
+cp -R assets/* repo_images/* images/* index.html ../appbaseio.github.io.master
 
 # commit and push generated content to `master' branch
 # since repository was cloned in write mode with token auth - we can push there
