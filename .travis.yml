@@ -24,5 +24,4 @@ sudo: false
 
 cache: pip
 
-script:
- - python shellcommit.py
+script: bash ./build.sh
