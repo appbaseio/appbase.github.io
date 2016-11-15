@@ -1,0 +1,74 @@
+#nav .navbar {
+	border: 0;
+    margin: 0;
+    border-radius: 0;
+}
+#nav .navbar .navbar-header .navbar-brand img {
+    height: 40px;
+}
+#nav .navbar, #nav.affix, #project-body {
+	background-color: #86DDF8!important;
+}
+#nav .navbar li a {
+	padding: 7px 13px;
+    cursor: pointer;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 12px 6px;
+    border-radius: 5px;	
+}
+#nav.nav-navy .navbar .nav li>a, #nav.nav-navy .navbar .nav li.profile span {
+	color: #232E44;
+}
+#project-body .top {
+    margin-top: 0;
+    background: #86DDF8;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    color: #232E44;
+}
+#project-body .top h1 {
+    padding-bottom: 20px;
+    font-size: 4.1em;
+    margin: 0;
+    padding-top: 20px;
+}
+#project-body p, #project-body .feature-head {
+    font-size: 1.5em;
+}
+.menu-category:first-of-type:before, .menu-category:not(:first-of-type):before, .menu-category:before {
+	display: none;
+}
+.menu-category-name {
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: bold;
+	margin: 0;
+}
+.menu-item-image img {
+	border: 2px solid #86DDF8;
+	position: static;
+}
+.menu-item-image:before {
+	display: none;
+}
+.menu-item-title-row {
+	padding: 10px 110px 10px 0;
+	position: relative;
+}
+.menu-item-title-row .menu-item-title {
+	font-size: 1.5em;
+	font-weight: lighter;
+}
+.menu-item-title-row .menu-item-star {
+	position: absolute;
+	right: 0;
+}
+.footer {
+	background: #232E44;
+}
+.footer-navigation-item a {
+	color: #86DDF8;
+}
