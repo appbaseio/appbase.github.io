@@ -3,7 +3,7 @@
 		"mirage": ["Elasticsearch"],
 		"dejavu": ["Elasticsearch"],
 		"gem": ["Elasticsearch"],
-		"ReactiveMaps": ["UI Libraries"],
+		"reactivemaps": ["UI Libraries"],
 		"Docbase": ["UI Libraries"],
 		"Docs": ["Docs"],
 		"go-appbase": ["Docs"],
