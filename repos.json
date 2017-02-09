@@ -1,9 +1,10 @@
 {
 	"repos": {
-		"mirage": ["JavaScript"],
-		"dejavu": ["JavaScript"],
-		"gem": ["JavaScript"],
-		"Docbase": ["JavaScript"],
+		"mirage": ["Elasticsearch"],
+		"dejavu": ["Elasticsearch"],
+		"gem": ["Elasticsearch"],
+		"ReactiveMaps": ["UI Libraries"],
+		"Docbase": ["UI Libraries"],
 		"Docs": ["Docs"],
 		"go-appbase": ["Docs"],
 		"appbase-js": ["Docs"]
