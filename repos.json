@@ -4,6 +4,7 @@
 		"dejavu": ["Elasticsearch"],
 		"gem": ["Elasticsearch"],
 		"reactivemaps": ["UI Libraries"],
+		"reactivesearch": ["UI Libraries"],
 		"Docbase": ["UI Libraries"],
 		"Docs": ["Docs"],
 		"go-appbase": ["Docs"],
